@@ -1,0 +1,5 @@
+<------------------------- Create React App ---------------------> 
+
+cd Folder URI
+
+React npx create - react-app name_App
