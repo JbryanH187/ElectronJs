@@ -6,15 +6,21 @@ import Saludar from './components/Saludar';
 function App() {
   const user = {
     nombre: "Bryan Higuera",
-    edad: 25,
+    
     color: "Azul"
   };
+
+const saludarFn = (name,edad)  => {
+
+  console.log("Hi hi " + name + " " + edad )  ;
+
+};
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Saludar userInfo = {user}/>
+        <Saludar userInfo = {user} saludarFn = {saludarFn}/>
       </header>
     </div>
   );
